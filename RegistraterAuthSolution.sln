@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistraterAuthWeb", "src\Presentation\RegistraterAuthWeb.csproj", "{B8A2C594-923B-EFDD-D0A6-EF5D5C8592C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{3011A625-CC6A-4173-8612-F1FA20C3F10F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A2C594-923B-EFDD-D0A6-EF5D5C8592C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A2C594-923B-EFDD-D0A6-EF5D5C8592C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A2C594-923B-EFDD-D0A6-EF5D5C8592C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A2C594-923B-EFDD-D0A6-EF5D5C8592C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3011A625-CC6A-4173-8612-F1FA20C3F10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3011A625-CC6A-4173-8612-F1FA20C3F10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3011A625-CC6A-4173-8612-F1FA20C3F10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3011A625-CC6A-4173-8612-F1FA20C3F10F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A244F57-8FD9-4B35-9A9E-AE5A135ABA4A}
+	EndGlobalSection
+EndGlobal

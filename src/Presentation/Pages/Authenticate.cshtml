@@ -1,0 +1,24 @@
+﻿@page
+@model AuthenticateModel
+@{
+    ViewData["Title"] = "Authentication";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <label>User: 
+        <input type="text" name="username" />
+    </label>
+    <br />
+    <label>Password: 
+        <input type="password" name="password" />
+    </label>
+    <br />
+    <button type="submit">Autenticar</button>
+</form>
+
+@if (ViewData["Token"] != null)
+{
+    <p>Expire at: @ViewData["Expiration"]</p>
+    <p>Token: @ViewData["Token"]</p>
+}

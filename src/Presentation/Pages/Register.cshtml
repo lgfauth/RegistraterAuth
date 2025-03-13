@@ -1,0 +1,35 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Subscription";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <label>User: 
+        <input type="text" name="Username" />
+    </label>
+    <br />
+    <label>Password: 
+        <input type="password" name="Password" />
+    </label>
+    <br />
+    <label>Email: 
+        <input type="email" name="Email" />
+    </label>
+    <br />
+    <label>Name: 
+        <input type="text" name="Name" />
+    </label>
+    <br />
+    <label>Last Name: 
+        <input type="text" name="LastName" />
+    </label>
+    <br />
+    <button type="submit">Submit</button>
+</form>
+
+@if (ViewData["Message"] != null)
+{
+    <p>@ViewData["Message"]</p>
+}
