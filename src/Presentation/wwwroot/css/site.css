@@ -1,18 +1,74 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+
+/*
+    Menu on layout:
+*/
+
+.custom-navbar {
+    background-color: #d3d3d3;
+}
+
+.custom-nav-link {
+    color: black;
+    padding: 15px 20px;
+}
+
+    .custom-nav-link.active, .custom-nav-link:hover {
+        background-color: #a9a9a9;
+        color: white;
+        margin-top: -11px;
+        margin-bottom: -9px;
+        height: 70px;
+        padding-top: 24px;
+    }
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+    Form pages
+*/
+.forms {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 188px;
+    padding-right: 188px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+    .forms input {
+        margin-bottom: 15px;
+    }
+
+    .forms button {
+        width: 60%;
+        margin:18%;
+    }
