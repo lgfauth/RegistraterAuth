@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-var backendConfiguration = builder.Configuration.GetSection("BackendConfiguration").Get<BackendConfiguration>();
+var backendConfiguration = builder.Configuration.Get<BackendConfiguration>();
 builder.Services.AddSingleton(backendConfiguration);
 
 Injector.DependenceInjection(builder.Services);
